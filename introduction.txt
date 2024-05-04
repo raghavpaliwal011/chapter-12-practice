@@ -1,0 +1,27 @@
+01-string:>
+There is a function in python called print function this prints the input given by a user and this 
+input is called string 
+print ("hello world")-->the input here in this double quote is called string
+
+usually to identify a string simply see that the function have " or ' if it is enclosed in these signs, 
+chances are that it is a string
+
+02-list:>
+list is a collection of ordered items enclosed in square brackets like this [] this is usually used to 
+represent a collection of items or only a perticular item from that whole list
+for example:>
+
+list=[1,2,3,4,"banana","apple"]
+# to represent only a perticular thing we use this function
+print (list[0])
+print (list[2])
+print (list[1])
+
+03-tuples:>
+tuples are similer to lists but the difference is that these tuples are immutable, meaning their elements
+cannot be changed after creation. 
+for example:>
+
+my_tuple=(1,2,3,4,5,"banana","apple")
+print (my_tuple[1])
+print (len(my_tuple))
