@@ -25,3 +25,29 @@ for example:>
 my_tuple=(1,2,3,4,5,"banana","apple")
 print (my_tuple[1])
 print (len(my_tuple))
+
+04-sets:>
+sets in python are a list of unordered items usually these are used to execute mathematical programmes
+for example:>
+
+my_set={1,2,3,4,5}
+my_set.add(6)#this add function will add 6
+my_set.remove(1)#this remove function will remove 1
+print (my_set)
+
+05-dictionary:>
+dictionary in python is a collection of unordered key value pair,usually they start with curly brackets{}
+and each value in them is seperated by a colon :
+here key value pair means a collection of related itmes like some dictionary will revolve around your
+personal details like age , nationality , name etc.
+for example:>
+
+my_dict={"name":"raghav","age":13,"country":"india"}
+print(my_dict["name"])
+my_dict["age"] = 14
+print (my_dict)
+
+and yes we can later on change a value even after the creation of the dictionary as shown above
+
+06-array:>
+this means the short form of any module in python
