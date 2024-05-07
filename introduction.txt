@@ -1,3 +1,6 @@
+introduction to python:>
+data structures:>
+
 01-string:>
 There is a function in python called print function this prints the input given by a user and this 
 input is called string 
@@ -51,3 +54,62 @@ and yes we can later on change a value even after the creation of the dictionary
 
 06-array:>
 this means the short form of any module in python
+
+
+###############################################################
+in short data structures in python means different operations that we will use to store data
+###############################################################
+
+NOW THAT DATA STRUCTRUES are understood lets move on to next ones 
+now some functions:>
+
+07-def:>
+def function makes the code short and reusable ,like if you want to print the sum of a and b you can
+write a whole code for that or you can simply write a function named def we can perform multiple tasks
+with def function and we will need to call it only once and it will return your whole code
+for example:>
+def calculate():
+    a = 5
+    b = 6
+
+    ab = print ("the sum of a and b is :>",a+b)
+
+calculate()
+
+08-type:>
+type function returns the type of an object
+for example:>
+a = int(input("enter a number = "))
+print (type(a)) ------->returns <class 'int'>
+
+09-list(), tuple(), set(), dict()
+this function will change between list ,tuple, set, or dict
+for example:>
+#list to tuple
+
+my_list = [1,2,3,4,5,6,7]
+my_tuple = tuple(my_list)
+print (my_tuple)
+
+#tuple to list 
+
+my_tuple = (1,2,3,4,5,6,7)
+my_list=list(my_tuple)
+print (my_list)
+
+#list to set
+my_list=[1,2,3,4,5,6,7]
+my_set = set (my_list)
+print (my_list)
+
+#creating a dictionary
+my_dict = dict(name = "raghav", city = "8")
+print (my_dict)
+ 
+10-range:>
+range function tells all the numbers lying between a specified range of numbers
+for example:>
+a = range(1,6)
+print (list(a))
+
+11-int(), float(), str():>
