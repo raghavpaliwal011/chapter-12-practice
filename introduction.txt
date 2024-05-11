@@ -113,3 +113,66 @@ a = range(1,6)
 print (list(a))
 
 11-int(), float(), str():>
+These functions are useful for converting values between different data types as needed in your 
+Python programs.
+for example:>
+
+
+12-self:>
+In short, self in Python is a reference to the instance of a class within the class itself.
+class employee:
+    def cal_sal(self):
+        print (f"the salary of raghav is {self.salary}")
+    
+raghav = employee()
+raghav.salary = 10000
+raghav.cal_sal()
+
+13-map,filter,reduce:>
+map --> 
+In short, the map() function in Python applies a specified function to each item in an iterable and 
+returns an iterator that yields the results. It's a convenient way to apply a function to multiple 
+elements of a collection without explicitly looping over each element.
+
+filter-->
+this function will filter the specified programme for example if you want the numbers in a list that are
+only greater than 4 then it will only return the numbers that are greater than 4
+
+reduce:>
+first of all we will need to import this function with functools module or else it will not work
+now, reduce function will do the specified work it is given to do like multiplying ,dividing, adding or
+subtracting.
+
+
+examples for all these:>
+
+#map
+def cube(x):
+    return x*x*x
+print (cube(2))
+l = [1,2,3,4,5,6,7,8,9,10]
+newl=list(map(cube,l))
+print (newl)
+
+#filter 
+def filter_function(a):
+    return a>4
+newnewl = list(filter(filter_function,l))
+print (newnewl)
+
+#reduce
+from functools import reduce
+numbers = [3,5,4,7]
+def mysum(x,y):
+    return x+y
+sum = reduce(mysum,numbers)
+print (sum)
+
+14-append:>
+this function will modify a list by adding the element which was not in it earlier 
+for example:>
+l = [1,2,3,4,5,6,7,8,9]
+l.append(10)
+print (l)
+
+15-lambda:>
