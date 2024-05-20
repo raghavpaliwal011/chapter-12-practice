@@ -176,3 +176,17 @@ l.append(10)
 print (l)
 
 15-lambda:>
+lambda is optional to use we can also use def in the place of lambda but lambda is good and we simply dont
+need to write a big 3-4 line code instead of that we can complete the code in just one line. it is useful
+for mathematical operations like taking cube or square of any perticular number 
+for example:>
+square = lambda x : x*x
+cube = lambda x : x*x*x
+print (square(5))
+print (cube(5))
+
+
+
+THIS WAS THE Python introduction 
+
+HAPPY CODING :>
